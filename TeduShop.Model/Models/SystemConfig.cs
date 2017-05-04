@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TeduShop.Model.Models
 {
-    [Table("SystemConfig")]
+    [Table("SystemConfigs")]
     public class SystemConfig
     {
         [Key]
-        public int Id { set; get; }
+        public int ID { set; get; }
 
         [Required]
         [Column(TypeName = "varchar")]

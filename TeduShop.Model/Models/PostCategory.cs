@@ -17,9 +17,9 @@ namespace TeduShop.Model.Models
         public string Name { set; get; }
 
         [Required]
-        [MaxLength(256)]
         [Column(TypeName = "varchar")]
-        public string ALias { set; get; }
+        [MaxLength(256)]
+        public string Alias { set; get; }
 
         [MaxLength(500)]
         public string Description { set; get; }

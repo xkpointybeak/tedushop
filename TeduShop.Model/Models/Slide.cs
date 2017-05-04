@@ -14,7 +14,6 @@ namespace TeduShop.Model.Models
         [MaxLength(256)]
         public string Name { set; get; }
 
-        [Required]
         [MaxLength(256)]
         public string Description { set; get; }
 
@@ -25,6 +24,7 @@ namespace TeduShop.Model.Models
         public string Url { set; get; }
 
         public int? DisplayOrder { set; get; }
+
         public bool Status { set; get; }
     }
 }

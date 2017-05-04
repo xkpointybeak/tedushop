@@ -25,16 +25,15 @@ namespace TeduShop.Model.Models
         public string CustomerEmail { set; get; }
 
         [Required]
-        [MaxLength(256)]
+        [MaxLength(50)]
         public string CustomerMobile { set; get; }
 
         [Required]
         [MaxLength(256)]
         public string CustomerMessage { set; get; }
 
-        [Required]
         [MaxLength(256)]
-        public string PaymentMenthod { set; get; }
+        public string PaymentMethod { set; get; }
 
         public DateTime? CreatedDate { set; get; }
         public string CreatedBy { set; get; }
