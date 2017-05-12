@@ -19,6 +19,7 @@ namespace TeduShop.Service
         IEnumerable<PostCategory> GetAllByParentId(int parentId);
 
         PostCategory GetById(int id);
+
         void Save();
     }
 
