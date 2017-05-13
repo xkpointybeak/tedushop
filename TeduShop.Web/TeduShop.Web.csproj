@@ -209,6 +209,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.js" />
+    <Content Include="app\app.routes.js" />
+    <Content Include="app\components\products\product.routes.js" />
+    <Content Include="app\components\products\productAddView.html" />
+    <Content Include="app\components\products\productEditController.js" />
+    <Content Include="app\components\products\productAddController.js" />
+    <Content Include="app\components\products\productListController.js" />
+    <Content Include="app\components\products\productListView.html" />
+    <Content Include="app\components\products\productEditView.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
@@ -223,7 +232,17 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\admin\" />
+    <Folder Include="app\components\orders\" />
+    <Folder Include="app\components\product_categories\" />
+    <Folder Include="app\components\roles\" />
+    <Folder Include="app\components\users\" />
+    <Folder Include="app\shared\footer\" />
+    <Folder Include="app\shared\navigation\" />
+    <Folder Include="app\shared\services\" />
+    <Folder Include="Assets\admin\css\" />
+    <Folder Include="Assets\admin\img\" />
+    <Folder Include="Assets\admin\js\" />
+    <Folder Include="Assets\admin\libs\" />
     <Folder Include="Assets\client\" />
     <Folder Include="Scripts\plugins\" />
     <Folder Include="Scripts\spa\" />
@@ -251,6 +270,10 @@
       <Project>{7eb49ce5-4c7a-46d0-b381-eb19a5f8dfaa}</Project>
       <Name>TeduShop.Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".bowerrc" />
+    <Content Include="bower.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
