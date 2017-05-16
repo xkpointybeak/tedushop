@@ -338,6 +338,9 @@
     <Content Include="Assets\admin\libs\jquery\dist\jquery.min.js" />
     <Content Include="Assets\admin\libs\jquery\dist\jquery.slim.js" />
     <Content Include="Assets\admin\libs\jquery\dist\jquery.slim.min.js" />
+    <Content Include="Assets\admin\libs\jquery\external\sizzle\dist\sizzle.js" />
+    <Content Include="Assets\admin\libs\jquery\external\sizzle\dist\sizzle.min.js" />
+    <Content Include="Assets\admin\libs\jquery\external\sizzle\LICENSE.txt" />
     <Content Include="Assets\admin\libs\jquery\LICENSE.txt" />
     <Content Include="Assets\admin\libs\jquery\sizzle\dist\sizzle.js" />
     <Content Include="Assets\admin\libs\jquery\sizzle\dist\sizzle.min.js" />
@@ -656,6 +659,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\AdminLTE-2.3.0.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\admin\libs\jquery\external\sizzle\dist\sizzle.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
